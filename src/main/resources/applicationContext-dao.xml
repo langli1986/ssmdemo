@@ -6,9 +6,9 @@
     <!--配置数据库连接池-->
     <bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-        <property name="url" value="jdbc:mysql://localhost:3306/ssmdemo"></property>
-        <property name="username" value="root"></property>
-        <property name="password" value="zhangli"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/ssm"></property>
+        <property name="username" value="xuzhou"></property>
+        <property name="password" value="123456"></property>
     </bean>
 
     <!--配置session工厂-->
