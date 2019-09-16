@@ -1,5 +1,5 @@
 create database ssmdemo;
-use ali;
+use zhagnkun;
 create table t_user(id int,name varchar(20));
 use ssmdemo;
 ALTER TABLE t_user
